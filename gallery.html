@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEN - GALLERY</title>
+    <style>
+        p.solid {
+            border-style: solid;
+            color: #BABAD0;
+            background-color: black;
+            width: 30%;
+            padding: 15px;
+        }
+
+        body{
+            background-color: #191921;
+            margin: 0;
+            /*background-color: black;*/
+            font-family: Arial, sans-serif;
+            color: #BABAD0;
+        }
+
+        header{
+            border-style: solid;
+            color: #BABAD0;
+            text-align: center;
+            width: 60%;
+            margin-left: 20%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 0;
+        }
+
+        .home{
+            width: 112px;
+            height: 80px;
+            margin: 50px;
+
+            background-size: contain;
+            background-repeat: no-repeat;
+            transition: background-image 0.3s ease-in-out;
+        }
+
+        .home:hover{
+            background-image: url("home-button\(1\).png");
+        }
+
+        .gallery{
+            width: 112px;
+            height: 80px;
+            margin: 50px;
+
+            background-size: contain;
+            background-repeat: no-repeat;
+            transition: background-image 0.3s ease-in-out;
+        }
+
+        .gallery:hover{
+            background-image: url("gallery-button\(1\).png");
+        }
+
+        .about{
+            width: 112px;
+            height: 80px;
+            margin: 50px;
+
+            background-size: contain;
+            background-repeat: no-repeat;
+            transition: background-image 0.3s ease-in-out;
+        }
+
+        .about:hover:hover{
+            background-image: url("about-button\(1\).png");
+        }
+
+        .home{
+            background-image: url("home-button.png");
+        }
+
+        .gallery{
+            background-image: url("gallery-button.png");
+        }
+
+        .about{
+            background-image: url("about-button.png");
+        }
+
+        @media screen and (max-width:768px) {
+            .home{
+                width: 180px;
+                height: 150px;
+            }
+            .gallery{
+                width: 180px;
+                height: 150px;
+            }
+            .about{
+                width: 180px;
+                height: 150px;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            .home{
+                width: 150px;
+                height: 130px;
+                margin: 20px;
+            }
+            .gallery{
+                width: 150px;
+                height: 130px;
+                margin: 20px;
+            }
+            .about{
+                width: 150px;
+                height: 130px;
+                margin: 20px;
+            }
+            
+            nav{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="nav-item home"></a>
+            <a href="gallery.html" class="nav-item gallery"></a>
+            <a href="about.html" class="nav-item about"></a>
+        </nav>
+    </header>
+
+    <br><br>
+    <center><p class="solid" style="word-spacing: 3px;">Hey there! <br>Welcome to my gallery. In this section you will <br>find some of my drawings. I don't have a lot of <br>them but I hope enjoy looking (˶ᵔ ᵕ ᵔ˶) <br>If you ever want to comission me, you can find <br>my socials linked in the "HOME" page or you <br>can email through the link in the "ABOUT" page <br>ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧</p></center>
+    <br>
+    <center><img src="flamey.gif" width="560" height="315" style="border:solid #BABAD0;"></center>
+    <br><br>
+    <center><img src="self-portrait_jan2024.png" width="348" height="260" style="border:solid #BABAD0;"></center>
+    <br><br>
+    <center><img src="GeriRuselleBabilonia_Mage(1).jpg" width="272" height="340" style="border:solid #BABAD0;"> <img src="GeriRuselleBabilonia_Archer(1).jpg" width="272" height="340" style="border:solid #BABAD0;"></center>
+    <br><br>
+    <center><img src="bakunawa standing pose.jpg" width="190" height="250" style="border:solid #BABAD0;"> <img src="sidapa standing pose.jpg" width="190" height="250" style="border:solid #BABAD0;"> <img src="bulan standing pose.jpg" width="190" height="250" style="border:solid #BABAD0;"> <img src="tawong-lipod standing pose.jpg" width="190" height="250" style="border:solid #BABAD0;"> <img src="kalaon standing pose.jpg" width="190" height="250" style="border:solid #BABAD0;"></center>
+    <br><br>
+    <center><img src="sidapa dynamic pose.jpg" width="240" height="300" style="border:solid #BABAD0;"> <img src="bulan dynamic pose.jpg" width="240" height="300" style="border:solid #BABAD0;"> <img src="bakunawa dynamic pose.jpg" width="240" height="300" style="border:solid #BABAD0;"></center>
+    <br><br>
+    <center><img src="tawong-lipod dynamic pose.jpg" width="240" height="300" style="border:solid #BABAD0;"> <img src="kalaon dynamic pose.jpg" width="240" height="300" style="border:solid #BABAD0;"></center>
+    <br><br>
+    
+</body>
+</html>

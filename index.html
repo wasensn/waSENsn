@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEN</title>
+    <style>
+        body{
+            background-color: #191921;
+            margin: 0;
+            /*background-color: black;*/
+            font-family: Arial, sans-serif;
+            color: #BABAD0;
+        }
+
+        header{
+            border-style: solid;
+            color: #BABAD0;
+            text-align: center;
+            width: 60%;
+            margin-left: 20%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 0;
+        }
+
+        .home{
+            width: 112px;
+            height: 80px;
+            margin: 50px;
+
+            background-size: contain;
+            background-repeat: no-repeat;
+            transition: background-image 0.3s ease-in-out;
+        }
+
+        .home:hover{
+            background-image: url("home-button\(1\).png");
+        }
+
+        .gallery{
+            width: 112px;
+            height: 80px;
+            margin: 50px;
+
+            background-size: contain;
+            background-repeat: no-repeat;
+            transition: background-image 0.3s ease-in-out;
+        }
+
+        .gallery:hover{
+            background-image: url("gallery-button\(1\).png");
+        }
+
+        .about{
+            width: 112px;
+            height: 80px;
+            margin: 50px;
+
+            background-size: contain;
+            background-repeat: no-repeat;
+            transition: background-image 0.3s ease-in-out;
+        }
+
+        .about:hover:hover{
+            background-image: url("about-button\(1\).png");
+        }
+
+        .home{
+            background-image: url("home-button.png");
+        }
+
+        .gallery{
+            background-image: url("gallery-button.png");
+        }
+
+        .about{
+            background-image: url("about-button.png");
+        }
+
+        @media screen and (max-width:768px) {
+            .home{
+                width: 180px;
+                height: 150px;
+            }
+            .gallery{
+                width: 180px;
+                height: 150px;
+            }
+            .about{
+                width: 180px;
+                height: 150px;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            .home{
+                width: 150px;
+                height: 130px;
+                margin: 20px;
+            }
+            .gallery{
+                width: 150px;
+                height: 130px;
+                margin: 20px;
+            }
+            .about{
+                width: 150px;
+                height: 130px;
+                margin: 20px;
+            }
+            
+            nav{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .social-icons{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        .social-icons a img{
+            width: 65px;
+            height: 65px;
+            transition: transform 0.3 ease;
+        }
+
+        .social-icons a img:hover{
+            transform: scale(1.1);
+        }
+
+        .portrait{
+            display: flex;
+            justify-content: center;
+            padding: 40px 0;
+        }
+
+        .portrait img{
+            width: 35%;
+            height: auto;
+        }
+
+        @media screen and (max-width:768px) {
+            .portrait img{
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            .portrait img{
+                width: 70%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="nav-item home"></a>
+            <a href="gallery.html" class="nav-item gallery"></a>
+            <a href="about.html" class="nav-item about"></a>
+        </nav>
+    </header>
+
+    <div class="portrait">
+        <img src="portrait.png" alt="Portrait">
+    </div>
+
+    <div class="social-icons">
+        <a href="https://www.instagram.com/wasensn/"><img src="instagram_logo.png" alt="Instagram" title="@wasensn"></a>
+        <a href="https://github.com/wasensn"><img src="github_logo.png" alt="GitHub" title="@wasensn"></a>
+        <a href="https://www.youtube.com/channel/UChKh7JtYuq3vRHyGs4ceNpg"><img src="youtube_logo.png" alt="YouTube" title="@wasensn"></a>
+        <a href="https://ko-fi.com/wasensn#paypalModal"><img src="ko-fi_logo.png" alt="Ko-fi" title="@wasensn"></a>
+    </div>
+
+</body>
+</html>
